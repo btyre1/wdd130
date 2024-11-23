@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #A4876A;
+  --secondary-color: #B0C9E1;
+  --accent1-color: #606C38;
+  --accent2-color: #ECF3F8;
+  --font-family: "Roboto", sans-serif;
+  --font-style: normal;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-style: var(--font-style);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-style: var(--font-style);
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
