@@ -24,9 +24,6 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-p {
-  color: var(--accent1-color);
-}
 
 nav a img {
   text-decoration: none;
@@ -34,26 +31,48 @@ nav a img {
 
 .hero {
   position: relative;
+  text-align: center;
 }
 
 .hero img {
-  display: block;
   width: 100%;
-  height: auto;
+  height: auto; 
+  display: block;
 }
 
 .hero h1 {
   position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding-left: 100%;
+  padding-right: 100%;
 }
 
 .hero article {
   position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(71, 133, 21, 0.6);
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 60%;
+  text-align: left;
 }
 
 .hero article img {
-  float: right ;
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-left: 15px;
+  border-radius: 5px;
 }
-  
 
-  
-  
