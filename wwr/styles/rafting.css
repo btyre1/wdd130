@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #A4876A;
-  --secondary-color: #23395b;
+  --primary-color: #564027;
+  --secondary-color: #C4D6E9;
   --accent1-color: #606C38;
   --accent2-color: #ECF3F8;
   --font-family1: "Roboto", sans-serif;
@@ -153,11 +153,11 @@ main section article img {
 }
 
 figcaption {
-  color: #B9A38D;
+  color: #564027;
 }
 
 p {
-  color: #B9A38D;
+  color: #564027;
 }
 
 .hero p  {
