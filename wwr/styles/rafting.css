@@ -172,7 +172,7 @@
   
   .hero p  {
     color: white;
-    background-color: rgba(71, 133, 21, 0.6);
+    background-color: var(--accent1-color); 
   }
 
   form button {
