@@ -43,11 +43,21 @@
     font-family: 'Oswald', sans-serif;
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 3.5rem;
-    color: #fff;
+    color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     margin: 0;
     padding-left: 100%;
     padding-right: 100%;
+  }
+
+  .hero h2 {
+    text-align: center;
+    background-color: var(--accent2-color);
+    margin: 20px;
+  }
+
+  .hero a {
+    margin-bottom: 20px;
   }
   
   .hero article {
@@ -56,7 +66,7 @@
     left: 50%;
     transform: translate(-50%, 0);
     background-color: rgba(71, 133, 21, 0.6);
-    color: #fff;
+    color: white;
     padding: 20px;
     border-radius: 5px;
     max-width: 60%;
@@ -162,6 +172,7 @@
   
   .hero p  {
     color: white;
+    background-color: rgba(71, 133, 21, 0.6);
   }
 
   form button {
@@ -223,6 +234,10 @@
   .map iframe {
     width: 500px;
     height: 300px;
+  }
+
+  .content-grid {
+    display: grid;
   }
 
 
